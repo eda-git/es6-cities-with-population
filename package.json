@@ -1,0 +1,12 @@
+{
+    "name": "es6-cities-with-population",
+    "version": "1.0.1",
+    "description": "A package to provide information about cities and their populations.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ed Ali",
+    "license": "MIT"
+  }
+  
