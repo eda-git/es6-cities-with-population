@@ -4,6 +4,11 @@
 
 The **ES6CitiesWithPopulation** package is designed to use import functions in ES6 to grab an array of cities. There are two sets of methods of retrieving cities, one called getCities() (for cities larger than 100,000 people) and one called getCitiesMedium() (for cities larger than 50,000 people)
 
+## Installation
+
+```
+npm i es6-cities-with-population 
+```
 
 ## Example Data Structure
 The exported data follows the structure of an array of city objects, where each object includes the following properties:
