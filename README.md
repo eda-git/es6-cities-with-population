@@ -10,6 +10,19 @@ The **ES6CitiesWithPopulation** package is designed to use import functions in E
 npm i es6-cities-with-population 
 ```
 
+## Usage
+
+```
+import ES6CitiesWithPopulation from 'es6-cities-with-population';
+
+const cities = ES6CitiesWithPopulation.getCities(); // Cities with populations > 100,000
+const citiesMedium = ES6CitiesWithPopulation.getCitiesMedium();   // Cities with populations > 50,000
+
+let CountryCode = "US";
+const filteredCities = cities.filter(city => city.country_code === CountryCode); // Getting all U.S. cities with populations > 100,000
+
+
+```
 ## Example Data Structure
 The exported data follows the structure of an array of city objects, where each object includes the following properties:
 
